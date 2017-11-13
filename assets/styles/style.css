@@ -1,0 +1,84 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	min-height: inherit;
+}
+
+.container-fluid {
+	min-height: inherit;
+}
+
+button,
+input[type="submit"],
+.btn-default {
+	float: left;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 600;
+	margin-top: 0.8rem;
+	margin-right: 3px;
+	padding: 4px 18px;
+	color: white;
+	background-color: #3c82c9;
+	border: 1px solid transparent;
+}
+
+button:focus,
+input[type="submit"]:focus,
+.btn-default:focus {
+	border: 1px solid transparent;
+	color: white;
+	background-color: #ef6a6a;
+}
+
+button:hover,
+input[type="submit"]:hover,
+.btn-default:hover {
+	border: 1px solid #transparent;
+	color: white;
+	background-color: #39516b;
+}
+
+form {
+	display: table;
+}
+
+form>input {
+	border-radius: 4px !important;
+}
+
+form>input[type="submit"] {
+	display: table-cell;
+	float: left;
+}
+
+#search-buttons {
+	min-height: 96px;
+	padding: 6px 12px 1rem;
+}
+
+#main {
+	display: block;
+	min-height: inherit;
+	padding: 1rem 0;
+}
+
+figure {
+	display: table;
+	margin-bottom: 3rem;
+	margin-right: 1rem;
+}
+
+figcaption {
+	width: 100%;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.img-fixedheight {
+	height: 20rem;
+	width: auto;
+	margin-top: 1.25rem;
+}
